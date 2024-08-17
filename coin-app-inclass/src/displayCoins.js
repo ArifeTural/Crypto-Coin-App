@@ -22,6 +22,10 @@ const displayCoins = (coin) => {
           </figure>`;
     // ul.appendChild(li)
     ul.prepend(li);
+
+    li.querySelector(".remove-icon").addEventListener("click",() =>{
+        li.remove();
+    })
   
   };
   
